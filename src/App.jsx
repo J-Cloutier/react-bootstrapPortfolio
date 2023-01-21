@@ -1,10 +1,17 @@
 import React from "react"
+import Topbar from "./TopBar"
+import Hero from "./Hero"
+import Services from "./Services"
+
 
 function App() {
   
   return (
     <div className="App">
-      <h1>Hey Sailor</h1>
+      <Topbar />
+      <Hero />
+      <Services />
+      {/* <h1>Hey Sailor</h1> */}
     </div>
   )
 }

@@ -5,7 +5,7 @@ import { Card, Container, Row, Col, Button } from "react-bootstrap";
 export default function PortfolioCard(props) {
 	return (
 		<Col md={5}>
-			<Card className="rounded-5">
+			<Card className="rounded-5 shadow border-0">
 				<Card.Img className="rounded-5 portfolioImg" variant="top" src={props.img} />
 				<Card.Body>
 					<Card.Title>{props.title}</Card.Title>

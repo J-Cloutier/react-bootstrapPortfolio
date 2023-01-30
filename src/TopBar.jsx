@@ -3,7 +3,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 
 export default function Topbar() {
 	return (
-		<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+		<Navbar collapseOnSelect expand="lg" bg="warning" variant="light">
 			<Container>
 				<Navbar.Brand href="#home">Jordan Cloutier</Navbar.Brand>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />

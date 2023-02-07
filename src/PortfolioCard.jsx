@@ -11,7 +11,7 @@ export default function PortfolioCard(props) {
 					<Card.Title>{props.title}</Card.Title>
 					<Card.Text>{props.description}</Card.Text>
 					<Card.Subtitle className="mb-2 text-muted">{props.tech}</Card.Subtitle>
-					<Button variant="outline-secondary" href={props.liveLink} target="_blank">
+					<Button className="mt-3" variant="outline-secondary" href={props.liveLink} target="_blank">
 						See Live
 					</Button>
 				</Card.Body>

@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Button } from "react-bootstrap";
-import meteorSVG from "/public/meteor-solid.svg"
 
 export default function Hero() {
 	return (

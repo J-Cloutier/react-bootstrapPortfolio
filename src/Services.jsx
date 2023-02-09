@@ -1,6 +1,5 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import meteorSVG from "/public/meteor-solid.svg";
 
 export default function Services() {
 	return (
